@@ -7,6 +7,7 @@ farther out.
 
 - **Full plan:** [PLAN.md](PLAN.md)
 - **Printable / shareable version:** [tire-disposal-plan.html](tire-disposal-plan.html)
+- **Raw sourced research data:** [reuse_facilities.json](reuse_facilities.json) — farm-reuse outlets with source links (incl. LSU AgCenter contact)
 
 ## The 30-second version
 

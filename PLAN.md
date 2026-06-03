@@ -86,19 +86,42 @@ Where they *can* go — call ahead before driving:
 
 **The honest truth:** scrap/unusable tires almost always **cost money** to offload.
 Getting *paid* is rare — buyers want clean, gradeable casings or big volume, not a
-mixed junk pile. So don't count on income; count on **avoiding cost**.
+mixed junk pile. So don't count on income; count on **avoiding cost**. *(The one "cash"
+idea — cutting truck-tire sidewalls to sell as silage-cover rings to outfits like
+24tons or KSI Supply — isn't worth the labor for one ~40-tire pile, and they don't buy
+whole tires from the public anyway.)*
 
-The cheapest "disposal" is often **free reuse**, and tractor tires are in real demand
-in farm country:
+The cheapest "disposal" is **free reuse**, and your area is ideal for it: roughly **74%
+of East Carroll Parish is farmland**, so the cattle/hay crowd that actually uses these
+tires is right next door. Best plays, roughly in order:
 
-- **Silage-pit / bunker-silo covers** — cattle and dairy operations want them and will
-  frequently **haul them off for free**. This is the single best play for your tractor
-  tires.
-- **Feed bunks, water troughs, weights, mounting blocks, erosion control.**
-- **Raised garden beds / retaining walls** for landscapers and gardeners.
-- **Post a free-pickup ad** on **Facebook Marketplace / Craigslist** in the Lake
-  Providence, Tallulah, and Monroe groups: *"Free tractor & truck tires — you haul."*
-  A pile this size can clear fast in an ag area.
+- **Tractor-tire water troughs & feed bunks** — *the best home for your big tractor
+  tires.* One large tire becomes a near-indestructible, freeze-resistant cattle water
+  trough (cut one sidewall, seal the bottom) or a feed bunk. Ranchers seek these out
+  because they're free/cheap — let the rancher do the cutting.
+- **Silage / hay-tarp weights** — whole car and truck tires are the classic weight laid
+  over plastic to hold down silage piles, baleage, and hay tarps; one producer can
+  absorb dozens. ⚠️ **Climate caveat:** whole tires hold water and breed mosquitoes
+  (West Nile), and Louisiana limits on-farm tire stockpiles — so pitch them for **active
+  use laid flat on tarps**, not stacked storage.
+- **Raised garden beds / retaining & erosion walls** — soaks up odd large tires the
+  cattle crowd skips; gardeners take smaller passenger tires for planters and tree rings.
+
+**How to reach the demand:**
+1. **Post two separate free-pickup ads** on Facebook Marketplace (set location to Monroe
+   to cover NE LA): one *"Free used tires — you haul"* for passenger/farm-truck tires
+   (clears in days), and a separate *"Free tractor & ag tires, you load & haul — great
+   for silage weights, troughs, feed bunks"* so the right buyer self-selects. Bump every
+   few days; allow ~2 weeks for the biggest tires. Whole tractor tires go **free, not for
+   cash.**
+2. **Local parish buy/sell/trade & farm groups** — search Facebook for *Parish Buy Sell
+   Trade*, *Tallulah / Lake Providence yard sale*, *Delta Cattlemen*, *NELA farm
+   equipment*. Local members mean low haul cost for them.
+3. **LSU AgCenter — East Carroll / Madison Parish Extension office.** The parish
+   livestock/ag agent personally knows local cattle and hay producers and can connect
+   you to someone who wants tarp-weight or trough tires. Main AgCenter line
+   **225-578-4161** *(HQ switchboard — ask to be routed to your parish office)*, or use
+   the "Find Your Agent" page at lsuagcenter.com.
 
 ---
 
