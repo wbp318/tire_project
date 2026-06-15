@@ -1,2 +1,25 @@
-# Claude Code project-local data (memory, workflow transcripts, settings)
+# Claude Code project-local data (memory, workflow transcripts, settings, fetched PDFs)
 .claude/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Secrets / local env (never commit)
+.env
+.env.*
+*.local
+
+# Temp / logs
+*.log
+*.tmp
+*.bak
