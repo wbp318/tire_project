@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tire Business Viability — All Scopes (Master Report)</title>
+<style>
+  :root { --ink:#1d2327; --muted:#5b6770; --line:#e3e7ea; --green:#1f7a4d; --blue:#1f5f8a; --brown:#8a5a1f; --warn-bg:#fff7e6; --warn-bd:#e0b34d; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         color: var(--ink); line-height: 1.6; max-width: 880px; margin: 0 auto; padding: 32px 22px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; line-height: 1.2; }
+  h2 { font-size: 1.35rem; margin: 40px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--line); }
+  h3 { font-size: 1.05rem; margin: 22px 0 6px; }
+  .sub { color: var(--muted); margin: 0 0 18px; }
+  .meta { background:#f5f7f8; border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:18px 0; font-size:.95rem; }
+  .meta b { color: var(--ink); }
+  .warn { background: var(--warn-bg); border:1px solid var(--warn-bd); border-radius:10px; padding:14px 18px; margin:18px 0; }
+  .warn strong { color:#8a6300; }
+  .good { background:#eef7f1; border:1px solid #bfe0cd; border-radius:10px; padding:14px 18px; margin:18px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size:.92rem; }
+  th, td { border:1px solid var(--line); padding:8px 11px; text-align:left; vertical-align:top; }
+  th { background:#f2f5f6; }
+  ol, ul { padding-left: 22px; }
+  li { margin: 5px 0; }
+  code { background:#eef2f3; padding:1px 5px; border-radius:4px; font-size:.9em; }
+  .toc { background:#fff; border:1px solid var(--line); border-radius:8px; padding:8px 20px; margin:18px 0; }
+  .scopeA { border-left:5px solid var(--green); }
+  .scopeB { border-left:5px solid var(--blue); }
+  .scopeC { border-left:5px solid var(--brown); }
+  .scope { background:#fff; border:1px solid var(--line); border-radius:8px; padding:6px 20px 16px; margin:22px 0; }
+  .callout { font-weight:600; }
+  .callA { color:var(--green);} .callB{color:var(--blue);} .callC{color:var(--brown);}
+  footer { margin-top:40px; padding-top:14px; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; }
+  @media print { body { padding:0; } h2 { page-break-after: avoid; } .scope,.good,.warn { break-inside: avoid; } a { color:inherit; text-decoration:none; } .pagebreak{page-break-before:always;} }
+</style>
+</head>
+<body>
+
+<h1>Tire Business Viability — Master Report</h1>
+<p class="sub">All three scopes &middot; Prepared for William, East Carroll Parish, LA &middot; June 2026</p>
+
+<div class="meta">
+  <b>What this is:</b> a single decision document covering whether — and where — to enter the waste-tire
+  business, plus the Arkansas/general-waste angle you asked about. Three scopes are evaluated; each also
+  has its own standalone printable plan (Plan A/B/C HTML files).<br>
+  <b>The headline finding:</b> Northeast Louisiana — not Acadiana — is the real processor gap, because the
+  one NE processor (Franklin Rubber, Winnsboro) is failing under fire-marshal and town orders. Acadiana is
+  saturated by Colt, Inc., so the Acadiana play is collection/hauling, not processing. Arkansas is optional
+  upside on a broken state program, and "general trash" is a much bigger, capital-heavy, hauling-entry business.
+</div>
+
+<div class="toc">
+  <h3>Contents</h3>
+  <ol>
+    <li>Executive summary &amp; side-by-side comparison</li>
+    <li>The fact that reframes everything: the real LDEQ processor map</li>
+    <li>Scope A — Northeast Louisiana processor <em>(recommended)</em></li>
+    <li>Scope B — Acadiana collector/hauler <em>(live-where-you-want)</em></li>
+    <li>Scope C — Arkansas tires &amp; general waste <em>(optional upside)</em></li>
+    <li>What to do in the next 30 days</li>
+  </ol>
+</div>
+
+<h2>1. Executive summary &amp; comparison</h2>
+<table>
+  <tr><th>&nbsp;</th><th>A · NE LA Processor</th><th>B · Acadiana Collector</th><th>C · Arkansas / General Waste</th></tr>
+  <tr><td><b>What you'd be</b></td><td>Permitted waste-tire processor (shred &amp; haul)</td><td>Registered tire transporter feeding Colt</td><td>Cross-line tire supply + possible roll-off hauling</td></tr>
+  <tr><td><b>Near home?</b></td><td>Yes (~60–70 mi)</td><td>No — Acadiana (preferred to live)</td><td>Yes (AR line ~12 mi)</td></tr>
+  <tr><td><b>Capital</b></td><td>~$330k–$870k</td><td>~$60k–$220k</td><td>Low (hauling) to very high (MSW processing)</td></tr>
+  <tr><td><b>Competition</b></td><td>Weak/failing incumbent (gap reopening)</td><td>Colt dominates — don't compete, supply it</td><td>Broken state program; MSW monopoly-held</td></tr>
+  <tr><td><b>Main risk</b></td><td>Pile fires/regulatory; thin margins at low volume</td><td>Thin per-tire margin; route density</td><td>Structurally underfunded; AR tires won't earn LA subsidy</td></tr>
+  <tr><td><b>Upside</b></td><td>Only regional processor; sets tip fees</td><td>Low risk, low capital, live where you want</td><td>Privatization opening; multi-stream hauling income</td></tr>
+  <tr><td><b>Verdict</b></td><td><b>Recommended</b> if LDEQ confirms gap open</td><td>Best <b>low-capital on-ramp</b> / lifestyle fit</td><td><b>Watch &amp; supplement</b>, don't build for it</td></tr>
+</table>
+
+<div class="good">
+  <strong>Recommended path:</strong> Start as a <em>collector/hauler</em> (Scope B economics, run near home or in
+  Acadiana) to learn the relationships, logistics, and LDEQ paperwork at low capital — while you confirm with LDEQ
+  whether the NE-LA processor gap (Scope A) is truly open. If it is, convert the same trucks and accounts into
+  feedstock for your own NE-LA plant. Treat Arkansas (Scope C) as incremental supply and a privatization option to watch.
+</div>
+
+<h2>2. The fact that reframes everything</h2>
+<p>Our earlier notes assumed NE Louisiana's nearest processor was ~200 miles south. The official LDEQ list
+(Jan 17, 2025) shows that's wrong — there are <strong>five</strong> permitted processors, distributed like this:</p>
+<table>
+  <tr><th>Processor</th><th>Location</th><th>Region</th><th>Status</th></tr>
+  <tr><td><b>Franklin Rubber Resources</b></td><td><b>Winnsboro</b></td><td><b>NE LA — ~60–70 mi</b></td><td><b>Failing / on-and-off</b></td></tr>
+  <tr><td>Benson Environmental Services</td><td>Sibley (near Minden)</td><td>NW LA — ~150 mi</td><td>Operational</td></tr>
+  <tr><td>Colt, Inc. (×2)</td><td>Scott (Lafayette) + New Orleans</td><td>Acadiana + SE</td><td>Dominant (~3M tires/yr)</td></tr>
+  <tr><td>Environmental Industries Recycling</td><td>Port Allen</td><td>South-central — ~190 mi</td><td>Operational</td></tr>
+  <tr><td>Baum Industries</td><td>Baton Rouge</td><td>South-central</td><td>Not operational</td></tr>
+</table>
+<p>So south Louisiana is covered, NW LA has Benson, and <strong>NE LA hangs on one shaky operator</strong> —
+Franklin Rubber, which has had 14 fire-department responses since 2010, a State Fire Marshal cease-and-desist
+since Sept 23, 2023, and a Town of Winnsboro vacate order. That single fact is what creates the opportunity and
+warns how the business fails.</p>
+
+<!-- SCOPE A -->
+<div class="scope scopeA pagebreak">
+<h2 style="border:0;margin-top:10px;">3. Scope A — Northeast Louisiana Processor <span class="callout callA">(Recommended)</span></h2>
+
+<p><b>Model:</b> Collect tires &rarr; shred to chips with steel/wire separation &rarr; haul tire-derived
+fuel (TDF) to the West Monroe paper mill (~70 mi) and sell recovered steel. Matches the 800–1,500 tires/month
+demand LDEQ flagged for the region.</p>
+
+<h3>Three revenue streams (need all three)</h3>
+<ol>
+  <li><b>Tip fees</b> from generators/parishes (~$1.50–2/passenger, $8–20+/large).</li>
+  <li><b>State subsidy</b> — min <b>7.5&cent;/lb (~$150/ton)</b> on LDEQ-approved end use (in-state tires only).</li>
+  <li><b>End-product sales</b> — TDF chips + recovered steel.</li>
+</ol>
+
+<h3>Licensing (LDEQ Standard Processor Permit)</h3>
+<ul>
+  <li>App fee ~$1,563 + public notice; written subsidy agreement tied to an approved end market.</li>
+  <li>Financial assurance $20/ton on site (bond/LOC/trust), reviewed yearly.</li>
+  <li>Controlled access (20-ft gates, 100-ft buffer); pile limits 10H×20W×200L, 50-ft fire lanes; storage ≤60× daily capacity.</li>
+  <li>Fire plan + FD agreement; vector control; manifests; 5-yr records; monthly reports by the 12th.</li>
+</ul>
+
+<h3>Capital &amp; break-even</h3>
+<p>Startup ~<b>$330k lean</b> (used equipment, contract hauling) to ~<b>$870k</b> comfortable. Break-even
+is roughly <b>3,000 tires/month</b> — at 1,500/mo it's break-even-to-negative. <b>Viability = volume</b>:
+aggregate East Carroll, Madison, Tensas, Richland, Franklin, Ouachita, Morehouse.</p>
+
+<div class="warn"><strong>Don't repeat Franklin Rubber:</strong> rural site you control (not in-town), strict pile
+limits, an FD-approved fire plan, and a confirmed buyer so tires flow <em>through</em> the yard, never pile up.</div>
+
+<p class="callout callA">Decisive question for LDEQ: is Franklin Rubber's permit/operation dead enough that NE
+LA needs a new processor? His answer gates this whole scope. Full detail: <code>ne-louisiana-processor-plan.html</code>.</p>
+</div>
+
+<!-- SCOPE B -->
+<div class="scope scopeB">
+<h2 style="border:0;margin-top:10px;">4. Scope B — Acadiana Collector/Hauler <span class="callout callB">(Lifestyle fit / on-ramp)</span></h2>
+
+<p><b>Why not process in Acadiana:</b> Colt, Inc. (Scott) runs ~3M tires/yr and is a top-20 US processor.
+Competing head-to-head on its home turf is the textbook bad entry. <b>Instead, supply it.</b></p>
+
+<p><b>Model:</b> Registered waste-tire transporter — contract with dealers, shops, fleets, and parish events to
+collect tires on a schedule and deliver to Colt. Generally needs LDEQ transporter registration + manifesting,
+<em>not</em> the heavy processor permit/financial-assurance/fire-plan burden. <b>Confirm the tier with LDEQ.</b></p>
+
+<h3>Capital &amp; economics</h3>
+<ul>
+  <li>Startup ~<b>$60k lean</b> (one used truck + boxes + insurance + registration) to ~$220k multi-truck.</li>
+  <li>Margin ~$0.75–1.50/tire after delivery; profitability comes from <b>route density</b> and adding trucks.</li>
+</ul>
+
+<p class="callout callB">This is the low-capital on-ramp: same skills and accounts later feed your own NE-LA plant
+(Scope A) instead of Colt. Run it where you want to live. Full detail: <code>acadiana-collector-plan.html</code>.</p>
+</div>
+
+<!-- SCOPE C -->
+<div class="scope scopeC">
+<h2 style="border:0;margin-top:10px;">5. Scope C — Arkansas Tires &amp; General Waste <span class="callout callC">(Optional upside)</span></h2>
+
+<h3>Arkansas tires</h3>
+<ul>
+  <li>State-run via regional <b>Used Tire Programs</b>; no per-pound processor subsidy. ~$2.31/tire reimbursement = break-even.</li>
+  <li>Program <b>ran out of money in 2022</b>; a UTP sought $2.90→$5.01/tire in June 2025 to keep a processor; <b>privatization</b> debated for 2025.</li>
+  <li><b>Play it as optionality:</b> use AR Delta tires (Lake Village, McGehee, Dermott) as incremental supply for a
+  Louisiana operation (won't earn the LA subsidy — confirm), and get on ADEQ/SEARSWMD's list to hear about privatization/RFPs early.</li>
+</ul>
+
+<h3>General trash / MSW</h3>
+<ul>
+  <li>Landfills/transfer stations/MRFs are $10M+, heavily permitted, and monopoly-held by national haulers — not a small-business entry.</li>
+  <li>The realistic entry is <b>hauling</b>: roll-off dumpsters, C&amp;D, junk removal — and one fleet can carry <b>tires + debris together</b>.</li>
+</ul>
+
+<p class="callout callC">Read: a dual-stream hauling business straddling the LA/AR line is more achievable than an MSW
+processing plant, and pairs with Scope B. Full detail: <code>arkansas-opportunity-plan.html</code>.</p>
+</div>
+
+<h2>6. What to do in the next 30 days</h2>
+<ol>
+  <li><b>Call Dutch (Lewis) Donlon, LDEQ</b> — (225) 219-3388, Lewis.Donlon@la.gov. Ask: (a) Franklin Rubber's
+  current status (is the NE gap open?), (b) room for a new NE processor, (c) approvable end markets, (d) the
+  transporter registration tier for Scope B. <em>(Draft email ready in ldeq-outreach-email.md.)</em></li>
+  <li><b>Call Graphic Packaging, West Monroe</b> — would they accept/pilot TDF, and to what spec? This anchors Scope A.</li>
+  <li><b>Call Colt, Inc.</b> (337-235-0353) — do they accept delivered tires from independent transporters, and on what terms? This anchors Scope B.</li>
+  <li><b>Email ADEQ TAP &amp; SEARSWMD</b> — current contract status and whether AR privatization is moving. This scopes C.</li>
+  <li><b>Survey supply</b> — call NE-LA parish police juries and tire dealers on tire volumes and disposal pain.</li>
+</ol>
+
+<footer>
+  Companion documents: ne-louisiana-processor-plan.html, acadiana-collector-plan.html, arkansas-opportunity-plan.html,
+  plus markdown sources (business-case.md, location-analysis.md, startup-budget.md, end-market-buyers.md,
+  arkansas-opportunity.md, ldeq-outreach-email.md). Sources: LDEQ Permitted Processor list (Jan 2025); LDEQ Waste
+  Tire Pilot Program release (Apr 2025); Colt LWCC feature; Franklin Sun/hannapub &amp; KNOE on Franklin Rubber;
+  Arkansas Times &amp; Arkansas Advocate on the AR tire program; ADEQ TAP; SEARSWMD. All dollar figures are planning
+  ranges — confirm with quotes, LDEQ, an insurance agent, and a bond agent before relying on them.
+</footer>
+
+</body>
+</html>

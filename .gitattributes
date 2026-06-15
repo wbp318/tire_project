@@ -1,0 +1,118 @@
+# .gitattributes — force GitHub Linguist to detect & count ALL languages.
+#
+# By default Linguist hides "prose" (Markdown/Text), "data" (JSON/CSV/YAML),
+# documentation, vendored and generated files from the repository language bar.
+# Every rule below opts those file types back IN so the language breakdown
+# reflects everything in the repo.
+#
+# Docs: https://github.com/github-linguist/linguist/blob/master/docs/overrides.md
+
+# ---------------------------------------------------------------------------
+# Markup / web
+# ---------------------------------------------------------------------------
+*.html      linguist-detectable
+*.htm       linguist-detectable
+*.xhtml     linguist-detectable
+*.css       linguist-detectable
+*.scss      linguist-detectable
+*.sass      linguist-detectable
+*.less      linguist-detectable
+*.svg       linguist-detectable
+*.xml       linguist-detectable
+*.xsl       linguist-detectable
+*.vue       linguist-detectable
+*.svelte    linguist-detectable
+*.astro     linguist-detectable
+
+# ---------------------------------------------------------------------------
+# Prose / documentation (normally excluded)
+# ---------------------------------------------------------------------------
+*.md        linguist-detectable
+*.markdown  linguist-detectable
+*.mdx       linguist-detectable
+*.rst       linguist-detectable
+*.txt       linguist-detectable
+*.adoc      linguist-detectable
+*.asciidoc  linguist-detectable
+*.org       linguist-detectable
+*.tex       linguist-detectable
+
+# ---------------------------------------------------------------------------
+# Data / config (normally excluded)
+# ---------------------------------------------------------------------------
+*.json      linguist-detectable
+*.json5     linguist-detectable
+*.jsonc     linguist-detectable
+*.yaml      linguist-detectable
+*.yml       linguist-detectable
+*.toml      linguist-detectable
+*.ini       linguist-detectable
+*.csv       linguist-detectable
+*.tsv       linguist-detectable
+*.env       linguist-detectable
+
+# ---------------------------------------------------------------------------
+# Scripting & general-purpose languages
+# ---------------------------------------------------------------------------
+*.py        linguist-detectable
+*.ipynb     linguist-detectable
+*.js        linguist-detectable
+*.mjs       linguist-detectable
+*.cjs       linguist-detectable
+*.jsx       linguist-detectable
+*.ts        linguist-detectable
+*.tsx       linguist-detectable
+*.rb        linguist-detectable
+*.php       linguist-detectable
+*.pl        linguist-detectable
+*.lua       linguist-detectable
+*.r         linguist-detectable
+*.jl        linguist-detectable
+*.go        linguist-detectable
+*.rs        linguist-detectable
+*.c         linguist-detectable
+*.h         linguist-detectable
+*.cpp       linguist-detectable
+*.cc        linguist-detectable
+*.hpp       linguist-detectable
+*.cs        linguist-detectable
+*.java      linguist-detectable
+*.kt        linguist-detectable
+*.swift     linguist-detectable
+*.scala     linguist-detectable
+*.dart      linguist-detectable
+*.hs        linguist-detectable
+*.ex        linguist-detectable
+*.exs       linguist-detectable
+*.erl       linguist-detectable
+*.clj       linguist-detectable
+*.elm       linguist-detectable
+*.fs        linguist-detectable
+*.ml        linguist-detectable
+*.nim       linguist-detectable
+*.zig       linguist-detectable
+
+# ---------------------------------------------------------------------------
+# Shell / automation / infra
+# ---------------------------------------------------------------------------
+*.sh        linguist-detectable
+*.bash      linguist-detectable
+*.zsh       linguist-detectable
+*.fish      linguist-detectable
+*.ps1       linguist-detectable
+*.psm1      linguist-detectable
+*.bat       linguist-detectable
+*.cmd       linguist-detectable
+*.dockerfile linguist-detectable
+Dockerfile  linguist-detectable
+Makefile    linguist-detectable
+*.mk        linguist-detectable
+*.tf        linguist-detectable
+*.hcl       linguist-detectable
+
+# ---------------------------------------------------------------------------
+# Query / database
+# ---------------------------------------------------------------------------
+*.sql       linguist-detectable
+*.graphql   linguist-detectable
+*.gql       linguist-detectable
