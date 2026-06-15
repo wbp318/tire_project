@@ -1,7 +1,7 @@
 # Where to Site a Waste Tire Processor — Location Analysis
 
 **Prepared for:** William (currently East Carroll Parish, LA) · **Date:** June 2026
-**Bottom line up front:** Acadiana (your preferred place to live) is the *worst* place to start a competing processor — it's the most saturated market in the state. Northeast Louisiana is the real gap, and it just got more interesting because the one NE processor is failing. Arkansas is a separate, riskier play covered in `arkansas-opportunity.md`.
+**Bottom line up front:** Acadiana is the *worst* place to start a competing processor — it's the most saturated market in the state. Northeast Louisiana is the real gap, and it just got more interesting because the one NE processor is failing. Arkansas is a separate, riskier play covered in `arkansas-opportunity.md`.
 
 ---
 
@@ -21,11 +21,11 @@ So the map is: south Louisiana is covered, NW LA has Benson, and **NE LA's only 
 
 ---
 
-## Region 1 — Acadiana (your preferred home): saturated, do not compete
+## Region 1 — Acadiana: saturated, do not compete
 
 - **Colt, Inc. (Scott, LA)** processes ~3 million scrap tires/year — *by far* the state's largest, and a top-20 processor nationally. It also runs dumpsite remediation statewide.
 - A new processor opening in Colt's backyard would be fighting the incumbent for the same generators on the incumbent's home turf, with worse economies of scale on day one. This is the textbook bad entry.
-- **But there's still an Acadiana play that fits "live where I want":** be a **collector/transporter**, not a processor. You'd run roll-off boxes / a trailer, contract with tire dealers and parishes to haul tires, and *sell them into Colt* (or feed your own NE plant). Far lower capital (no shredder, no financial-assurance-heavy pile permit at processor scale), and you're a supplier to Colt rather than a competitor. This is the realistic way to base yourself in Acadiana.
+- **But there's still an Acadiana play:** be a **collector/transporter**, not a processor. You'd run roll-off boxes / a trailer, contract with tire dealers and parishes to haul tires, and *sell them into Colt* (or feed your own NE plant). Far lower capital (no shredder, no financial-assurance-heavy pile permit at processor scale), and you're a supplier to Colt rather than a competitor.
 
 ## Region 2 — Northeast Louisiana (near home): the real gap, with a cautionary tale
 
@@ -56,7 +56,7 @@ Arkansas's *statewide* tire program is government-run and **broke** (ran out of 
 ## Recommendation
 
 1. **Processor → Northeast Louisiana**, on rural land you control, sited to avoid the in-town mistakes that are sinking Franklin Rubber. This keeps you near home, near the West Monroe end market, and aimed at a gap that's actively reopening.
-2. **If living in Acadiana matters more than maximizing the processor margin** → run a **collection/hauling** business there that feeds Colt. Much lower capital, no head-to-head fight, and it still earns money in tires.
+2. **If you want the lowest-capital entry** → run a **collection/hauling** business that feeds Colt. Much lower capital, no head-to-head fight, and it still earns money in tires; it also doubles as an on-ramp to the NE-LA processor.
 3. **Before any capital outlay,** the single decisive question for Donlon at LDEQ (draft in `ldeq-outreach-email.md`) is now sharper: *"What is Franklin Rubber Resources' current status, and does LDEQ see room for an additional NE Louisiana processor?"* His answer tells you whether the gap is open.
 
 ---
